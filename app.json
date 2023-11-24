@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.outsung.customexpoupdatesclient"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,25 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "outsung"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e4b8ecd4-2be2-414d-b948-07f3de6e6c05"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e4b8ecd4-2be2-414d-b948-07f3de6e6c05"
     }
   }
 }
