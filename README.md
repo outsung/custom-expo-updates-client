@@ -14,7 +14,7 @@ $ npx create-expo-app -t expo-template-blank-typescript
 
 - Add `eas.json` ([Reference](https://docs.expo.dev/build/eas-json/)).
 
-- Copy the two files from the [scripts folder](https://github.com/outsung/custom-expo-updates-server/scripts).
+- Copy the two files from the [scripts folder](https://github.com/outsung/custom-expo-updates-server/tree/main/scripts).
 
 - Update the server address in the [upload.sh](./scripts/upload.sh) file.
 
