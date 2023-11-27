@@ -1,6 +1,8 @@
 import * as Updates from "expo-updates";
 import { StatusBar } from "expo-status-bar";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { Button, Image, StyleSheet, Text, View } from "react-native";
+
+import iconImage from "./src/assets/image/icon.png";
 
 export default function App() {
   async function onFetchUpdateAsync() {
@@ -20,7 +22,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
-      <Text>update: 11/24 14:31</Text>
+      <Text>update: 11/27 13:25</Text>
+      <Image style={{ width: 100, height: 100 }} source={iconImage} />
       <Button title="Fetch update" onPress={onFetchUpdateAsync} />
       <StatusBar style="auto" />
     </View>
