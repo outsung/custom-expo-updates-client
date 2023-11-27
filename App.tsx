@@ -22,7 +22,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
-      <Text>update: 11/27 13:25</Text>
+      <Text>update: 11/27 14:28</Text>
       <Image style={{ width: 100, height: 100 }} source={iconImage} />
       <Button title="Fetch update" onPress={onFetchUpdateAsync} />
       <StatusBar style="auto" />
