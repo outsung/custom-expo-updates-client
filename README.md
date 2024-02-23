@@ -24,7 +24,7 @@ $ npx create-expo-app -t expo-template-blank-typescript
 
 ```ts
 updates: {
-  url: `https://mom-update.mommoss.com/api/update/expo/manifests/release/${APP_VARIANT}/latest`,
+  url: `https://custom-expo-updates-server-rouge.vercel.app/api/update/expo/manifests/release/${APP_VARIANT}/latest`,
 },
 ```
 
